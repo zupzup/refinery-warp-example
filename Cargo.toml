@@ -10,5 +10,5 @@ edition = "2018"
 tokio = { version = "0.2", features = ["macros", "sync"] }
 warp = "0.2"
 thiserror = "1.0"
-refinery = { version = "0.2", features = ["tokio-postgres"]}
+refinery = { version = "0.3", features = ["tokio-postgres"]}
 tokio-postgres = "0.5.3"
